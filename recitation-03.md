@@ -58,6 +58,6 @@ x=1000 y=2, 0.07605552673339844
 x=10000 y=2, 0.08392333984375
 x=100000 y=2, 0.09202957153320312
 
-It's giving log(n)
+It looks like the run time is about log(n)
 
 9. Please input more test cases in `test_main.py`
