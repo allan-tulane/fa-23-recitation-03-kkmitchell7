@@ -1,6 +1,6 @@
 # CMPS 2200  Recitation 03
 
-**Name (Team Member 1):**_________________________  
+**Name (Team Member 1):**Kailen Mitchell 
 **Name (Team Member 2):**_________________________
 
 
@@ -50,4 +50,14 @@ The implementation of `_quadratic_multiply` will do the following:
 6. Use `bit_shift` to do the $2^n$ and $2^{n/2}$ multiplications.
 7. Finally, you have to do three sums to get the final answer. For this assignment, you can just use the `decimal_val`s of each number to do this, though keep in mind that binary addition is a $O(n)$ operation, assuming $n$ bits per term.
 8. Please implement function test_quadratic_multiply in `main.py` to obtain the running time.
+
+x=1 y=2, 0.010967254638671875
+x=10 y=2, 0.05888938903808594
+x=100 y=2, 0.051021575927734375
+x=1000 y=2, 0.07605552673339844
+x=10000 y=2, 0.08392333984375
+x=100000 y=2, 0.09202957153320312
+
+It's giving log(n)
+
 9. Please input more test cases in `test_main.py`
